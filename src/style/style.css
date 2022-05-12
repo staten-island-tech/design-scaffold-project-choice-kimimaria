@@ -1,6 +1,22 @@
-.header
-position: absolute;
-width: 700.92px;
-height: 298.6px;
-left: 823.08px;
-top: 272.94px;
+body {
+    background-color: rgb(250, 26, 26);
+    color: rgb(237, 237, 245);
+    font-size: 25px;
+}
+h1 {
+    color: rgb(246, 255, 246)
+}
+.white-font {
+    color: white;
+}
+.head {
+    text-align: center;
+    background-color: coral;
+    }
+
+.subhead {
+    text-align: center;
+    background-color: coral;
+    margin-bottom: 100px;
+}
+
