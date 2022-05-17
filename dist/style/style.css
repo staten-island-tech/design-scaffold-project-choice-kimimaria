@@ -1,34 +1,28 @@
 body {
   background-image: url(https://cdn.motor1.com/images/mgl/KVEmG/s1/nissan-tsuru-crash-test.jpg);
-  color: rgb(237, 237, 245);
-  width: 1524px;
-  height: 814.89px;
-  left: 0px;
-  top: 85.11px;
 }
 
-header-title {
-  width: 700.92px;
-  height: 298.6px;
-  left: 823.08px;
-  top: 272.94px;
-}
-
-header-description {
-  position: absolute;
-  width: 443.58px;
-  height: 53.94px;
-  left: 828.09px;
-  top: 465.58px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+.header-title {
   text-align: center;
-  letter-spacing: 0.5px;
-  color: #121212;
-  opacity: 0.7;
+  font-size: 10rem;
+  left: 82rem;
+  top: 27rem;
+  color: aliceblue;
+}
+
+.header-description {
+  text-align: center;
+  width: 44rem;
+  height: 6rem;
+  left: 83rem;
+  top: 47rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+  color: aliceblue;
+  opacity: 0.8;
 }
 
 .white-font {
