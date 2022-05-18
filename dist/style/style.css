@@ -1,5 +1,6 @@
-body {
+.header-container {
   background-image: url(https://cdn.motor1.com/images/mgl/KVEmG/s1/nissan-tsuru-crash-test.jpg);
+  background-repeat: no-repeat;
 }
 
 .header-title {
@@ -11,16 +12,19 @@ body {
 }
 
 .header-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 5rem 3rem;
   width: 44rem;
-  height: 6rem;
-  left: 83rem;
+  height: 10rem;
   top: 47rem;
+  background-color: black;
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 3rem;
-  line-height: 4rem;
-  text-align: center;
+  font-size: 4rem;
+  line-height: 5rem;
   color: aliceblue;
   opacity: 0.8;
 }
