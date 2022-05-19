@@ -1,6 +1,9 @@
 .header-container {
   background-image: url(https://cdn.motor1.com/images/mgl/KVEmG/s1/nissan-tsuru-crash-test.jpg);
+  height: 100rem;
   background-repeat: no-repeat;
+  z-index: 0;
+  top: 0rem;
 }
 
 .header-title {
