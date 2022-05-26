@@ -1,7 +1,7 @@
 ---
 title: Model X
 author: Tesla
-image: media\modelx.jpg
+image: /media/modelx.jpg
 imageAlt: Test
 description: Safety evaluation
 ---

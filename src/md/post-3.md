@@ -1,7 +1,7 @@
 ---
 title: Subaru Outback
 author: IIHS
-image: media\subaruoutback.jpg
+image: /media/subaruoutback.jpg
 imageAlt: test
 description: Safety evaluation
 ---

@@ -1,7 +1,7 @@
 ---
 title: Model Y
 author: Tesla
-image: media\model y tesla.avif
+image: src\media\modely.jpg
 imageAlt: Test
 description: Safety evaluation
 ---
