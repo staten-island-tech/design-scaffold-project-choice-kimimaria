@@ -1,47 +1,34 @@
-.header {
-  width: 100%;
-  margin: 0 auto;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+  background-image: url(https://cdn.motor1.com/images/mgl/KVEmG/s1/nissan-tsuru-crash-test.jpg);
+  color: rgb(237, 237, 245);
+  width: 1524px;
+  height: 814.89px;
+  left: 0px;
+  top: 85.11px;
 }
 
 .header-title {
-  text-align: center;
-  align-self: flex-start;
-  font-size: 10rem;
-  left: 82rem;
-  top: 27rem;
-  color: aliceblue;
-}
-
-.header-container {
-  background-image: url(https://cdn.motor1.com/images/mgl/KVEmG/s1/nissan-tsuru-crash-test.jpg);
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  top: 0rem;
-  position: relative;
+  width: 700.92px;
+  height: 298.6px;
+  left: 823.08px;
+  top: 272.94px;
 }
 
 .header-description {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 5rem 3rem;
-  width: 44rem;
-  height: 10rem;
-  top: 47rem;
-  background-color: black;
+  position: absolute;
+  width: 443.58px;
+  height: 53.94px;
+  left: 828.09px;
+  top: 465.58px;
   font-family: "Poppins";
+  font-style: normal;
   font-weight: 400;
-  font-size: 4rem;
-  line-height: 5rem;
-  color: aliceblue;
-  opacity: 0.8;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #121212;
+  opacity: 0.7;
 }
 
 .white-font {
