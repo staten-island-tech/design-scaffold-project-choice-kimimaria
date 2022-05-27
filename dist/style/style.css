@@ -98,7 +98,7 @@ body {
     height: 50rem;
     width: 30%;
   }
-}
+  
 
   .article-title {
     display: flex;
@@ -131,8 +131,10 @@ body {
       width: 20%;
       height: 100%;
     }
-  .article {
-      font-size: 50rem;
+  .nav-item-desk,
+  .nav-item-desk:visited,
+  .nav-item-desk:link {
+      font-size: 2rem;
       font-weight: 300;
       margin: 1rem 0;
       padding: 1rem 2rem;
@@ -148,7 +150,10 @@ body {
       background-size: 240%;
       transition: all 0.4s;
     }
-  
-.h2{
-  color: blue;
-}
+  .nav-item-desk:hover,
+  .nav-item-desk:active {
+      background-position: 100%;
+      color: #fff;
+      transform: translateX(1rem);
+    }
+
