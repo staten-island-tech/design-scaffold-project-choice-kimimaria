@@ -3,14 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{title|safe}}</title>
+    <link rel="stylesheet" href="/style/style.css">
+
 </head>
 <body>
-    {{content | safe}}
-    {{description|safe}}
-    {{title|safe}}
-    {{author|safe}}
-    {{image|safe}}
+    <div class="article-text">
+        <h2>{{title|safe}}</h4>
+        <h4>{{author|safe}}</h4>
+        <p>{{content | safe}}</p>
+        <p>{{description|safe}}</p>
+    </div>
+
+    
+    <div>
+        <img class="img" src="{{image|safe}}" alt="{{imageAlt|safe}}">
+    </div>
+
+    
     
 </body>
 </html>

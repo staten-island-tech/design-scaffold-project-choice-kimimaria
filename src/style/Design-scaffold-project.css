@@ -32,7 +32,7 @@ body {
   border-radius: 10px;
 }
 
-#article {
+.article {
   display: flex;
   flex-direction: column;
   flex-basis: 30%;
@@ -60,16 +60,6 @@ body {
 .img-preview{
   height: 25vh;
   width: 25vw;
-}
-
-.img{
-  height: 45vh;
-  width: 45vw;
-}
-
-.articles{
-  display: flex;
-  flex-direction: row;
 }
 
 .continue-button{
@@ -140,7 +130,7 @@ body {
       justify-content: space-around;
       width: 20%;
       height: 100%;
-    }}
+    }
   .nav-item-desk,
   .nav-item-desk:visited,
   .nav-item-desk:link {
@@ -167,6 +157,4 @@ body {
       transform: translateX(1rem);
     }
 
-.article-text{
-  color: aliceblue;
 }
