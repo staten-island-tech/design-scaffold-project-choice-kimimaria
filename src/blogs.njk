@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-<h2>TEST<h2/>
     {% include 'nav.njk' %}
     <section class="section-container">
       <ul class="articles">
@@ -15,12 +14,14 @@
           <article class="article">
             <div class="article-text">
                 <h3 class="article-title">{{ post.data.title }}</h3>
-                <a class="article-link" href="{{ post.url }}">Continue Reading</a>
             </div>
-            <img class="img-preview" src="{{post.data.image}}" alt="">
+            <img class="img-preview" src="{{post.data.image}}" alt="safe car image">
+            <button class="continue-button"> 
+              <a class="article-link" href="{{ post.url }}">Continue Reading</a>
+            </button>
           </article>        
         {%- endfor -%}
       </ul>
     </section>
 </body>
-</html>
+</html> 
