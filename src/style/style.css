@@ -9,6 +9,7 @@ body {
 
 .header-title {
   text-align: center;
+  font-size: 4rem;
   text-transform: uppercase;
   align-self: center;
   font-weight: 700;
@@ -29,7 +30,7 @@ body {
   margin: 0 auto;
 }
 .header-description {
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: center;
   color: #fff;
   background-color: coral;
