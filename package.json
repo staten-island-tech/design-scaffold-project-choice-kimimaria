@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "watch" : "eleventy --watch",
+    "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy"
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/staten-island-tech/design-scaffold-project-choice-kimimaria#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "cloudinary-core": "^2.12.3"
   }
 }

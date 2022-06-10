@@ -1,7 +1,7 @@
 ---
 title: Model X
 author: Tesla
-image: /media/modelx.jpg
+image: https://res.cloudinary.com/dyvmtttks/image/upload/f_auto,q_auto/v1654871475/modelx_jwqnsw.jpg
 imageAlt: Test
 description: Safety evaluation
 ---

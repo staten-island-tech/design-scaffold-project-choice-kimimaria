@@ -9,6 +9,7 @@ body {
 
 .header-title {
   text-align: center;
+  font-size: 4rem;
   text-transform: uppercase;
   align-self: center;
   font-weight: 700;
@@ -29,7 +30,7 @@ body {
   margin: 0 auto;
 }
 .header-description {
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: center;
   color: #fff;
   background-color: coral;
@@ -68,8 +69,14 @@ body {
 }
 
 .img {
-  height: 45vh;
+  height: 70vh;
   width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 }
 
 .articles {
@@ -173,9 +180,10 @@ body {
 
 .article-text {
   color: aliceblue;
+  text-align: center;
 }
 
-.checkbox{
+.checkbox {
   opacity: 1;
   position: absolute;
 }
@@ -187,8 +195,8 @@ body {
   height: 26px;
   width: 50px;
   position: relative;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
   padding: 5px;
 }
 
@@ -207,18 +215,18 @@ body {
   transform: translateX(24px);
 }
 
-body.dark {
-  background-color: #31e719
+.article-text.dark {
+  background-color: #31e719;
 }
 
-body.dark h1 {
+.article-text.dark h1 {
   color: #da6d34;
 }
 
-body.dark h2 {
+.article-text.dark h2 {
   color: #da6d34;
 }
 
-body.dark p{
+.article-text.dark p {
   color: #fff;
 }
